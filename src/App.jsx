@@ -46,7 +46,7 @@ function App() {
       setResult(percentage);
     }
   };
-  
+
   return(
   <div className='flex flex-col items-center justify-center h-screen'>
     <div className='bg-gray-800 rounded-md p-4 text-white'>
@@ -59,7 +59,7 @@ function App() {
           <button className='bg-gray-700 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-md' onClick={handleClick} name='7'>7</button>
           <button className='bg-gray-700 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-md' onClick={handleClick} name='8'>8</button>
           <button className='bg-gray-700 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-md' onClick={handleClick} name='9'>9</button>
-          <button className='bg-green-500 hover:bg-yellow-400 text-white font-semibold py-2 px-4 rounded-md' onClick={handleClick} name='x'>x</button>
+          <button className='bg-green-500 hover:bg-yellow-400 text-white font-semibold py-2 px-4 rounded-md' onClick={handleClick} name='*'>x</button>
           <button className='bg-gray-700 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-md' onClick={handleClick} name='4'>4</button>
           <button className='bg-gray-700 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-md' onClick={handleClick} name='5'>5</button>
           <button className='bg-gray-700 hover:bg-gray-600 text-white font-semibold py-2 px-4 rounded-md' onClick={handleClick} name='6'>6</button>
